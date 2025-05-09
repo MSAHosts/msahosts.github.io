@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #050824;
+  color: #A6A6A6;
+  direction: rtl;
+  text-align: center;
+
+}
+
+header, main, footer {
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #A6A6A6;
+}
+
+#about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+
+}
+
+#social-links {
+  margin-top: 2rem;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+@media (min-width: 600px) {
+  .social-icons {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.social-icons a {
+  color: #A6A6A6;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.social-icons i {
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  color: #A6A6A6;
+
+  direction: ltr;
+}
